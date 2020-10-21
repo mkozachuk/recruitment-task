@@ -68,4 +68,8 @@ public class MyStructure implements IMyStructure {
         return null;
     }
 
+    public void addNode(Node node) {
+        nodes.add(node);
+    }
+
 }
